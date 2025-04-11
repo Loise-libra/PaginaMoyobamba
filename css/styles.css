@@ -26,14 +26,23 @@ nav {
   padding: 1rem 5%;
 }
 
-.logo {
+.logo a {
   color: white;
   font-size: 1.8rem;
   font-weight: bold;
 }
 
 .logo span {
-  color: #ffde59;
+  color: #ff8800;
+}
+.logo span:hover {
+  color: #ff5e00;
+  text-shadow: 2px 2px 4px rgba(41, 41, 41, 0.7);
+}
+.logo a:hover {
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+  transition: all 0.3s;
+  transform: translateY(-3px);
 }
 
 .nav-links {
@@ -60,7 +69,7 @@ nav {
 /* Hero Section */
 .hero {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/fondo') center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Moyobamba-San-Martin-pantano.jpg') center/cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
